@@ -17,6 +17,31 @@ https://github.com/paviad/sf2e-dualclass-release/releases/latest/download/module
 
 Updates then appear in the Add-on Modules list — click **Update**.
 
+## Get notified of new versions
+
+Foundry only shows an update when you open the Setup screen. To hear about one
+as soon as it is published:
+
+- **Email and phone:** on this page click **Watch** → **Custom** → tick
+  **Releases** → **Apply** (needs a free GitHub account). GitHub emails you for
+  every release, and the GitHub mobile app sends a push notification.
+- **RSS, no account:** subscribe to
+  `https://github.com/paviad/sf2e-dualclass-release/releases.atom` in any feed
+  reader.
+
+## Keeping up to date
+
+Updating this module does **not** update the game system or Pathfinder
+Anachronism — Foundry updates each package separately. When you update, use
+**Update All** on both the **Game Systems** and **Add-on Modules** tabs, then
+relaunch the world.
+
+If either is older than the version this module was tested with, the module
+says so in a warning when the world loads, and keeps working. Some updates also
+repair character data: if any character needs it, the world opens with an
+*Update character data* dialog that lists every change before making it. Back
+up the world first.
+
 ## Requirements
 
 - Foundry VTT **v14**
